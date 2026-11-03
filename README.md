@@ -15,7 +15,21 @@ Microsoft's public edge-tts endpoint.
 
 ---
 
-## 1. Build it (first time, ~10 minutes)
+## 0. TL;DR for new team members (3 steps)
+
+1. Get this repo: **Code → Download ZIP** on GitHub and unzip it (no git needed),
+   or `git clone https://github.com/fresherscomputersc-hash/content.git`
+2. Install Python 3.11+ (tick **Add python.exe to PATH**), then double-click **`SETUP.bat`** — it installs ffmpeg and the Python packages for you. If it asks to reopen a new window, do that and run it once more.
+3. Double-click **`GENERATE.bat`**. In ~5 minutes you have 9:16 reels with
+   voiceover, captions, carousels, LinkedIn/Threads posts and the posting plan
+   in `content\YYYY-MM-DD\`.
+
+Later, for opening outreach: double-click **`AUTOPSY.bat --url https://any-website.com`**
+to get a Site Autopsy reel with a real measured Flow Score.
+
+---
+
+## 1. Build it manually (first time, ~10 minutes)
 
 ### Step 1 - Install Python 3.11 or newer
 
