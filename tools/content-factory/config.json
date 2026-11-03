@@ -1,0 +1,51 @@
+{
+  "brand": "The Flow Labs",
+  "handle": "@the.flow.labs",
+  "email": "theflowlabs01@gmail.com",
+  "website": "https://the-flow-labs.vercel.app",
+  "niche": "local businesses in India",
+  "audience": "clinic, salon, gym, coaching centre and real estate owners who depend on enquiries",
+  "offer": "websites, AI and automation that get customers, not just a pretty page",
+  "cta_keyword": "SITE",
+  "timezone": "Asia/Kolkata",
+  "language": "hinglish",
+  "tone": "roast, meme, playful",
+  "voice_mix": [
+    {
+      "voice": "en-IN-NeerjaExpressiveNeural",
+      "weight": 0.6,
+      "rate": "+22%",
+      "pitch": "+3Hz"
+    },
+    {
+      "voice": "en-IN-PrabhatNeural",
+      "weight": 0.4,
+      "rate": "+24%",
+      "pitch": "+4Hz"
+    }
+  ],
+  "voice": "en-IN-NeerjaExpressiveNeural",
+  "voice_rate": "+22%",
+  "voice_pitch": "+3Hz",
+  "category_mix": {
+    "education": 0.4,
+    "case_study": 0.2,
+    "other": 0.4
+  },
+  "post_times": {
+    "linkedin": "09:00",
+    "threads": "12:30",
+    "instagram_carousel": "13:00",
+    "instagram_reel": "19:30",
+    "story_1": "11:00",
+    "story_2": "18:00"
+  },
+  "colors": {
+    "bg": "#030302",
+    "surface": "#0a0a08",
+    "text": "#f2f0ec",
+    "muted": "#8a9085",
+    "accent": "#A31c1b",
+    "accent2": "#143d1a"
+  }
+}

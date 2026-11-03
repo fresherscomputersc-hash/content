@@ -1,0 +1,252 @@
+{
+  "angles": [
+    {
+      "id": "slow-site",
+      "category": "education",
+      "theme": "Website speed",
+      "hook": "Bhai, teri website 7 second leti hai. Customer 3 second mein nikal jaata hai.",
+      "problem": "Phone pe kholi toh lagta hai 2014 ka PowerPoint chal raha hai. Load hone se pehle hi log competitor ko de dete hain.",
+      "fixes": [
+        "Images ko 200 KB se neeche laa",
+        "Ek hi booking button, sabse upar",
+        "WhatsApp reply 5 minute ke andar"
+      ],
+      "proof": "Ek clinic ki site 7.2 second se 1.4 second ki. Enquiries double ho gayi, ek mahine mein.",
+      "cta": "Comment SITE. Free 3-fix audit bhejta hoon. No pitch, sirf problems.",
+      "tags": ["#websitespeed", "#localbusiness", "#smallbusinessindia", "#webdesign", "#flowlabs"],
+      "keywords": ["website speed", "slow website", "local business website"]
+    },
+    {
+      "id": "no-booking",
+      "category": "education",
+      "theme": "Booking",
+      "hook": "Customer book karna chahta hai. Tu phone uthane ko bolta hai. Bold move.",
+      "problem": "Aadhe log call nahi karte. Wo us business se book karte hain jahan do tap mein ho jaata hai.",
+      "fixes": [
+        "Har page pe ek booking button",
+        "Calendar se sync karo",
+        "WhatsApp pe auto confirmation"
+      ],
+      "proof": "Ek gym ne reminders add kiye. No-shows 38 percent kam.",
+      "cta": "Comment BOOK. Setup bhejta hoon, copy-paste karna.",
+      "tags": ["#booking", "#localbusiness", "#automation", "#smallbusinessindia", "#flowlabs"],
+      "keywords": ["online booking", "appointment booking", "booking system"]
+    },
+    {
+      "id": "google-listing",
+      "category": "education",
+      "theme": "Google listing",
+      "hook": "Google pe tera business hai. Photos aunty ke purane album se import lagti hain.",
+      "problem": "Na timings sahi, na photos, na reviews ka reply. Customer website se pehle yahi dekhta hai.",
+      "fixes": [
+        "10 real photos daal, stock nahi",
+        "Timings aur service area fix kar",
+        "Har review ka reply, 24 ghante ke andar"
+      ],
+      "proof": "Ek dentist ne photos aur replies add kiye. Direction requests 62 percent badh gaye.",
+      "cta": "Comment MAPS. Free listing audit bhejta hoon.",
+      "tags": ["#googlebusinessprofile", "#localseo", "#localbusiness", "#smallbusinessindia", "#flowlabs"],
+      "keywords": ["google business profile", "local seo", "google maps listing"]
+    },
+    {
+      "id": "mobile-broken",
+      "category": "education",
+      "theme": "Mobile site",
+      "hook": "Phone pe apni site khol. Abhi. Main wait kar raha hoon.",
+      "problem": "Text chhota, menu dance kar raha hai, button kaam nahi kar raha. Traffic ka 70 percent phone se aata hai. Think.",
+      "fixes": [
+        "Mobile first design kar",
+        "Button 44 pixel se chhota nahi",
+        "Real phone pe test kar, browser pe nahi"
+      ],
+      "proof": "Ek site mobile ke liye rebuild ki. Bounce rate 71 se 34 percent.",
+      "cta": "Comment MOBILE. Teri site ka 2-minute screen recording bhejta hoon.",
+      "tags": ["#mobiledesign", "#webdesign", "#localbusiness", "#ux", "#flowlabs"],
+      "keywords": ["mobile website", "responsive design", "mobile friendly site"]
+    },
+    {
+      "id": "trust",
+      "category": "education",
+      "theme": "Trust",
+      "hook": "Website dekh ke lagta hai 2014 ka shaadi card hai. Bold font, stock photo, aur 'Welcome to our website'.",
+      "problem": "Purana design customer ko batata hai business bhi purana hai. Wo padhne se pehle nikal jaate hain.",
+      "fixes": [
+        "Real photos, stock nahi",
+        "Reviews aur naam dikha",
+        "First screen pe seedha bata tu kya karta hai"
+      ],
+      "proof": "Ek interior studio ne sirf photos aur copy badli. Enquiries 2.3x.",
+      "cta": "Comment LOOK. Before-after teardown bhejta hoon.",
+      "tags": ["#branding", "#webdesign", "#localbusiness", "#trust", "#flowlabs"],
+      "keywords": ["website redesign", "business website", "website trust"]
+    },
+    {
+      "id": "cheap-website",
+      "category": "education",
+      "theme": "Pricing",
+      "hook": "8,000 wali website sabse mehngi hoti hai. Pooch kaise.",
+      "problem": "Pehle 8 hazaar, phir 20 hazaar fix karne mein, phir 40 hazaar rebuild mein. Total: ek saal ka rent.",
+      "fixes": [
+        "Pooch domain aur hosting kiska hai",
+        "Pooch launch ke baad kya support milega",
+        "Delivery date likhwa, WhatsApp pe nahi"
+      ],
+      "proof": "Pichle quarter teen sites rebuild ki jo ek saal se purani bhi nahi thi.",
+      "cta": "Comment REBUILD. Bataata hoon teri site fixable hai ya nahi.",
+      "tags": ["#webdesign", "#smallbusinessindia", "#localbusiness", "#advice", "#flowlabs"],
+      "keywords": ["website cost", "cheap website", "website pricing india"]
+    },
+    {
+      "id": "clinic-speed",
+      "category": "case_study",
+      "theme": "Case study: clinic",
+      "hook": "Ek clinic ki website 7.2 second le rahi thi. Doctor ko laga Google pe problem hai.",
+      "problem": "Site pe 4 MB ka ek hero image tha. Mobile pe load hone se pehle patient Instagram pe pahunch jaata tha.",
+      "fixes": [
+        "Image 180 KB ki",
+        "Booking button top pe",
+        "WhatsApp auto-reply 60 second"
+      ],
+      "proof": "Load time 1.4 second. Enquiries 2x in 30 days. Same doctor, same fees.",
+      "cta": "Comment CLINIC. Poora breakdown bhejta hoon.",
+      "tags": ["#casestudy", "#clinicmarketing", "#websitespeed", "#localbusiness", "#flowlabs"],
+      "keywords": ["clinic website", "doctor website", "healthcare website"]
+    },
+    {
+      "id": "gym-booking",
+      "category": "case_study",
+      "theme": "Case study: gym",
+      "hook": "Gym owner ne bola: 'Log aate hain, phir gayab ho jaate hain.' Classic.",
+      "problem": "Booking WhatsApp pe, reminder koi nahi, no-show normal tha.",
+      "fixes": [
+        "Booking link",
+        "24 ghante pehle auto reminder",
+        "Miss ho toh rebook link"
+      ],
+      "proof": "No-shows 38 percent kam. Trainer ka schedule bhi full.",
+      "cta": "Comment GYM. Same setup bhejta hoon.",
+      "tags": ["#casestudy", "#gymmarketing", "#booking", "#automation", "#flowlabs"],
+      "keywords": ["gym website", "gym booking", "fitness business"]
+    },
+    {
+      "id": "salon-launch",
+      "category": "case_study",
+      "theme": "Case study: salon",
+      "hook": "Salon ke paas website hi nahi thi. Sirf Instagram aur ek Google listing with wrong timings.",
+      "problem": "Walk-in depend karta tha. Online search pe kuch nahi milta tha.",
+      "fixes": [
+        "5-page site, 9 din mein",
+        "Google listing fix",
+        "Booking plus WhatsApp confirmation"
+      ],
+      "proof": "First month: 41 online bookings. Owner ne bola 'yeh kya jaadu hai'.",
+      "cta": "Comment SALON. Timeline bhejta hoon.",
+      "tags": ["#casestudy", "#salonmarketing", "#localbusiness", "#websitedesign", "#flowlabs"],
+      "keywords": ["salon website", "salon booking", "beauty business"]
+    },
+    {
+      "id": "competitor",
+      "category": "other",
+      "theme": "Roast: competitor",
+      "hook": "Competitor tujhse better nahi hai. Uska website bas jaldi jawab deta hai.",
+      "problem": "Wo 1 second mein load hota hai, price dikhata hai, book karne deta hai. Tu call karne ko bolta hai.",
+      "fixes": [
+        "Price ya range site pe daal",
+        "Top 5 questions ka answer page pe",
+        "Ek clear next step"
+      ],
+      "proof": "Ek real estate office ne price range daala. 9 din mein 11 qualified leads.",
+      "cta": "Comment COMPETE. Bataata hoon wo kya better kar raha hai.",
+      "tags": ["#competition", "#webdesign", "#localbusiness", "#marketing", "#flowlabs"],
+      "keywords": ["competitor analysis", "local business marketing", "website conversion"]
+    },
+    {
+      "id": "ai-hype",
+      "category": "other",
+      "theme": "Roast: AI hype",
+      "hook": "Sab AI agency ban gaye. Kisi ne apna FAQ padha hi nahi.",
+      "problem": "Chatbot lagaya, 20 sawaalon ka answer nahi pata, customer ko phir bhi insaan chahiye.",
+      "fixes": [
+        "Top 20 repeated questions likh",
+        "Real answers likh, marketing lines nahi",
+        "WhatsApp aur booking se connect kar"
+      ],
+      "proof": "Ek clinic ka assistant 60 percent enquiries handle karta hai. Baaki insaan.",
+      "cta": "Comment AI. Question list template bhejta hoon.",
+      "tags": ["#ai", "#automation", "#customerservice", "#smallbusinessindia", "#flowlabs"],
+      "keywords": ["ai chatbot", "ai automation", "customer support ai"]
+    },
+    {
+      "id": "manual-ops",
+      "category": "other",
+      "theme": "Roast: jugaad ops",
+      "hook": "Tera CRM = 3 Excel sheets + 1 WhatsApp group + 1 bhai jo sab yaad rakhta hai.",
+      "problem": "Wo bhai chhutti pe gaya toh business ruk gaya. Yeh system nahi, dependency hai.",
+      "fixes": [
+        "Process ek page pe likh",
+        "Jo tools already hain unko connect kar",
+        "Handoff automate kar, soch nahi"
+      ],
+      "proof": "Ek agency ne 11 ghante per week bachaye, 3 automations se.",
+      "cta": "Comment OPS. One-page process map bhejta hoon.",
+      "tags": ["#automation", "#operations", "#smallbusinessindia", "#productivity", "#flowlabs"],
+      "keywords": ["business automation", "workflow automation", "operations"]
+    },
+    {
+      "id": "missed-calls",
+      "category": "other",
+      "theme": "Roast: missed calls",
+      "hook": "Missed call = customer jo paisa dekar chala gaya. Literally.",
+      "problem": "Local business 6 ghante mein reply karti hai. Tab tak customer dusri jagah book kar chuka hota hai.",
+      "fixes": [
+        "WhatsApp auto-reply 60 second",
+        "First message mein booking link",
+        "Do follow-up, phir stop"
+      ],
+      "proof": "Ek coaching centre ne 19 lost enquiries recover kiye, 2 hafte mein.",
+      "cta": "Comment FOLLOWUP. Message sequence bhejta hoon.",
+      "tags": ["#whatsappbusiness", "#automation", "#localbusiness", "#sales", "#flowlabs"],
+      "keywords": ["whatsapp automation", "lead follow up", "missed calls"]
+    },
+    {
+      "id": "instagram-vs-website",
+      "category": "other",
+      "theme": "Meme: followers vs bookings",
+      "hook": "Instagram pe 10k followers. Website pe 0 bookings. Balanced, as all things should be.",
+      "problem": "Followers ko book karna hai toh link chahiye. Link nahi toh DM. DM nahi toh kuch nahi.",
+      "fixes": [
+        "Bio mein ek link, booking page",
+        "Har reel mein one CTA",
+        "DM auto-reply with link"
+      ],
+      "proof": "Ek studio ne bio link booking page pe bheja. 3 hafte mein 27 bookings.",
+      "cta": "Comment LINK. Bio setup bhejta hoon.",
+      "tags": ["#instagrammarketing", "#smallbusinessindia", "#socialmedia", "#booking", "#flowlabs"],
+      "keywords": ["instagram bio link", "social media booking", "followers to customers"]
+    },
+    {
+      "id": "redesign",
+      "category": "other",
+      "theme": "Meme: same business",
+      "hook": "Same business. Same offer. Ek website change. Enquiries 4 se 17.",
+      "problem": "Purani site pe clear next step nahi tha. Log padhte, sir hilate, chale jaate.",
+      "fixes": [
+        "First screen pe ek message",
+        "Ek button, teen jagah",
+        "Enquiry ke baad ek follow-up"
+      ],
+      "proof": "Sirf website badli. Price, staff, service same. 4 se 17 enquiries per month.",
+      "cta": "Comment BEFORE. Full teardown bhejta hoon.",
+      "tags": ["#beforeafter", "#webdesign", "#casestudy", "#localbusiness", "#flowlabs"],
+      "keywords": ["website redesign", "conversion rate", "before after"]
+    }
+  ],
+  "story_prompts": [
+    "Poll: Teri website 3 second mein load hoti hai? Haan / Nahi / Pata nahi",
+    "Behind the scenes: audit sheet, 3 problems blurred",
+    "Quiz: Customer pehle 3 second mein kya decide karta hai?",
+    "Repost aaj ka reel with sticker: 'yeh dekhne ke baad ads mat chala'",
+    "Client message screenshot (name blurred) + one-line lesson",
+    "This or that: pretty website vs website jo bookings laati hai"
+  ]
+}

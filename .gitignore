@@ -1,0 +1,12 @@
+# generated output - never commit
+content/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# scratch
+*.tmp
+.DS_Store
+Thumbs.db
