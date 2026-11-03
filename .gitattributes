@@ -1,0 +1,5 @@
+# normalize line endings for the team
+* text=auto
+
+# Windows batch files must keep CRLF or goto/labels can misparse
+*.bat text eol=crlf
