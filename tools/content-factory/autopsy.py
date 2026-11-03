@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -66,23 +67,41 @@ def capture(url: str, out: Path, width: int = 1280, height: int = 800) -> None:
     if out.exists():
         out.unlink()
     browser = find_browser()
-    profile = Path(tempfile.mkdtemp(prefix="fl-capture-"))
-    cmd = [
+    base = [
         browser, "--headless=new", "--disable-gpu", "--hide-scrollbars",
         "--no-sandbox", "--no-first-run", "--disable-extensions",
-        f"--user-data-dir={profile}",
-        "--virtual-time-budget=9000",
         f"--window-size={width},{height}",
         f"--screenshot={out}",
-        url,
     ]
-    subprocess.run(cmd, capture_output=True, text=True, timeout=120)
-    if not out.exists() or out.stat().st_size < 2000:
-        raise RuntimeError("screenshot failed - try --shot <path-to-png>")
-    img = Image.open(out).convert("RGB")
-    if img.size != (width, height):
-        img = ImageOps.fit(img, (width, height), Image.LANCZOS)
-        img.save(out)
+    # Some sites keep scheduling JS timers, which stalls --virtual-time-budget.
+    # Try fast first, then progressively plainer strategies. Each attempt gets a
+    # fresh profile so a stale lock from the previous one cannot block it.
+    attempts = [
+        (["--virtual-time-budget=9000"], 60),
+        (["--timeout", "25000"], 75),   # real-time load cap, screenshot anyway
+        ([], 90),                       # bare: wait for normal load events
+    ]
+    last_err: Exception | None = None
+    for extra, tmo in attempts:
+        profile = Path(tempfile.mkdtemp(prefix="fl-capture-"))
+        cmd = base + extra + [f"--user-data-dir={profile}", url]
+        try:
+            subprocess.run(cmd, capture_output=True, text=True, timeout=tmo)
+            if out.exists() and out.stat().st_size >= 2000:
+                img = Image.open(out).convert("RGB")
+                if img.size != (width, height):
+                    img = ImageOps.fit(img, (width, height), Image.LANCZOS)
+                    img.save(out)
+                return
+            last_err = RuntimeError("screenshot was empty or too small")
+        except (subprocess.TimeoutExpired, OSError) as e:
+            last_err = e
+        finally:
+            shutil.rmtree(profile, ignore_errors=True)
+    raise RuntimeError(
+        f"headless {Path(browser).stem} could not screenshot {url} "
+        f"({last_err}). Workaround: AUTOPSY.bat --shot <your-own-png>"
+    )
 
 
 # --------------------------------------------------------------------------
